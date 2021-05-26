@@ -135,7 +135,7 @@ ol {
   font-weight: 500;
   min-width: 218px;
   padding: 24px 47px;
-  border-radius: 0;
+  border-radius: 10px;
   text-transform: uppercase;
   color: #fff;
   line-height: 1.2;
@@ -619,7 +619,7 @@ ol {
 .hero-social-links a {
   display: block;
   padding: 16px 0;
-  font-size: 16px;
+  font-size: 23px;
   color: #121212;
 }
 
@@ -652,7 +652,8 @@ ol {
   font-size: 16px;
   color: #212121;
   border-bottom: 3px solid #212121;
-  padding-right: 15px;
+  padding-right: 1px;
+  border-radius: 4px;
 }
 
 .sp-link:hover {
@@ -690,6 +691,7 @@ ol {
   left: 0;
   top: 0;
   background: #000000;
+  border-radius: 4px;
 }
 
 .progress-bar-style .bar-inner span {
@@ -703,6 +705,7 @@ ol {
   font-weight: 400;
   text-align: center;
   background: #212121;
+  border-radius: 7px;
 }
 
 /*------------------
@@ -716,8 +719,8 @@ ol {
 
 .copyright {
   color: #fff;
-  font-size: 11px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 200;
   padding: 4px 0;
 }
 
@@ -729,7 +732,7 @@ ol {
   display: inline-block;
   color: #fff;
   font-size: 17px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 /*------------------
@@ -760,7 +763,7 @@ ol {
 }
 
 .about-text p {
-  margin-bottom: 45px;
+  margin-bottom: 10px;
 }
 
 .about-text .site-btn {
@@ -1113,7 +1116,7 @@ ol {
 }
 
 .contact-form textarea {
-  height: 165px;
+  height: 169px;
   min-height: 165px;
   margin-bottom: 38px;
 }
@@ -1261,6 +1264,7 @@ ol {
     text-align: left;
     padding: 8px 5px;
     margin-bottom: 15px;
+    border-radius: 9px;
   }
   .slicknav_nav a:hover,
   .slicknav_nav .slicknav_row:hover {
@@ -1359,4 +1363,8 @@ ol {
   .map {
     height: 400px;
   }
+}
+
+.main-menu li a:hover {
+  color: #ff5959;
 }
